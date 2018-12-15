@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ii2.a100345851.calculadora.Main2Activity">
+
+    <TextView
+        android:text="Luis Cambero Piqueras"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/autorTxt" />
+
+    <TextView
+        android:text="100345851"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niaTxt"
+        android:textAlignment="center"
+        android:layout_below="@+id/autorTxt"
+        android:layout_alignLeft="@+id/autorTxt"
+        android:layout_alignStart="@+id/autorTxt"
+        android:layout_alignRight="@+id/autorTxt"
+        android:layout_alignEnd="@+id/autorTxt" />
+
+    <TextView
+        android:text="v.0.0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/niaTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:id="@+id/versionTxt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/volverBtn"
+        tools:text="@string/volver"
+        android:text="@string/volver"
+        style="@style/Widget.AppCompat.Button" />
+</RelativeLayout>

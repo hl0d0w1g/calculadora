@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ii2.a100345851.calculadora.Main3Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".25">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/expBtn"
+                android:layout_weight="1"
+                tools:text="@string/exp"
+                android:text="@string/exp" />
+
+            <Button
+                android:text="@string/raiz"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/raizBtn"
+                android:layout_weight="1"
+                tools:text="@string/raiz" />
+
+            <Button
+                android:text="@string/raizCubica"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/raizCubBtn"
+                android:layout_weight="1"
+                tools:text="@string/raizCubica" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".25">
+
+            <Button
+                android:text="@string/seno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/senBtn"
+                android:layout_weight="1"
+                tools:text="@string/seno" />
+
+            <Button
+                android:text="@string/coseno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/cosBtn"
+                android:layout_weight="1"
+                tools:text="@string/coseno" />
+
+            <Button
+                android:text="@string/tangente"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tanBtn"
+                android:layout_weight="1"
+                tools:text="@string/tangente" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".25">
+
+            <Button
+                android:text="@string/arcoseno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/arcSenBtn"
+                android:layout_weight="1"
+                tools:text="@string/arcoseno" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/arcCosBtn"
+                android:layout_weight="1"
+                tools:text="@string/arcocoseno"
+                android:text="@string/arcocoseno" />
+
+            <Button
+                android:text="@string/arcotangente"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/arcTanBtn"
+                android:layout_weight="1"
+                tools:text="@string/arcotangente" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".25">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/eExpBtn"
+                android:layout_weight="1"
+                tools:text="@string/eExp"
+                android:text="@string/eExp" />
+
+            <Button
+                android:text="@string/logNe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lnBtn"
+                android:layout_weight="1"
+                tools:text="@string/logNe" />
+
+            <Button
+                android:text="@string/logaritmo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/logBtn"
+                android:layout_weight="1"
+                tools:text="@string/logaritmo" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:text="@string/volver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/volverBtn"
+            tools:text="@string/volver"
+            style="@style/Widget.AppCompat.Button" />
+    </LinearLayout>
+
+</RelativeLayout>

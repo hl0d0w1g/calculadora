@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="acercaDe">Acerca de</string>
+    <string name="volver">Volver</string>
+    <string name="moduloCientifico">Módulo Cientifico</string>
+    <string name="seno">sen</string>
+    <string name="coseno">cos</string>
+    <string name="tangente">tan</string>
+    <string name="logaritmo">log</string>
+    <string name="logNe">ln</string>
+    <string name="raiz">raiz</string>
+    <string name="raizCubica">raiz cub</string>
+    <string name="arcoseno">sen ^ -1</string>
+    <string name="arcocoseno">cos ^ -1</string>
+    <string name="arcotangente">tan ^ -1</string>
+    <string name="eExp">e ^ x</string>
+    <string name="exp">x ^ y</string>
+
+</resources>
